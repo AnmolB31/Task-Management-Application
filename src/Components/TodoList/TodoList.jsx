@@ -116,6 +116,7 @@ export const TodoList = (props) => {
 
 
                         <div>
+                        {"(Scroll right on table to view Edit, Delete and Save option)"}
                             <table border>
                                 <tr>
                                     <th>Title</th>
