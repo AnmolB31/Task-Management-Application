@@ -1,0 +1,27 @@
+.todoBox{
+    padding:10px;
+    max-width: 300px;
+    margin : 10px auto;
+    text-align: left;
+   
+    }
+.adddelButton 
+{
+    text-align: center;
+ }
+ .todoBox h5{
+    color: rgb(101, 101, 212);
+    font-weight:600;
+    text-align: center !important;
+ }
+ .calender input{
+    width: 100%;
+ }
+
+ .status select{
+    width: 100%;
+ }
+
+ .adddelButton .btn{
+    margin-right: 20px;
+ }

@@ -1,5 +1,13 @@
+
 .App {
   text-align: center;
+  height: 100vh;
+  font-family: Helvetica, sans-serif !important;
+  max-width: 100%;
+}
+.vt-error{
+  color:red;
+  font-size: 12px;;
 }
 
 .App-logo {
@@ -28,11 +36,49 @@
   color: #61dafb;
 }
 
+.Dark {
+  background-color: black;
+  color:white;
+}
+.toggle{
+margin-bottom: 20px;
+padding: 10px;
+}
+.white {
+  background-color: white;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
+}
+
+.main table .th{
+  text-align: left;
+  padding: 0px 5px;
+}
+
+.task-calender .react-datepicker-popper {
+  transform: unset !important;
+  top: 30px !important;
+
+}
+
+
+@media screen and (min-width:320px) and (max-width:767px){
+  div.listBox {
+    padding: 5px;
+    max-width: 100%;
+    margin: 10px auto;
+    width: 100%;
+}
+
+.tabs {
+  margin-top: 40px;
+}
 }

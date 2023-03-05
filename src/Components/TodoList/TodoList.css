@@ -1,0 +1,76 @@
+.listBox{
+padding:5px;
+max-width: 1050px;
+margin : 30px auto;
+
+}
+.bright
+{
+    background-color: rgb(238, 235, 234);
+
+}
+.dark{
+    background-color: black;
+
+}
+.SearchContainer{
+/* margin:20px; */
+margin-top:5px;
+}
+/* .SearchContainer .search{
+    text-align: center;
+} */
+.SearchContainer .search {
+    text-align: left;
+    font-size: 14px;
+    width: 200px;
+    padding-left: 14px;
+}
+
+.react-datepicker-wrapper input{
+    text-align: left;
+    font-size: 14px;
+    width: 200px;
+    padding-left: 14px !important;
+}
+.listBox .title{
+    background-color: rgb(137, 137, 243);
+    padding: 20px;
+
+    color: white;
+}
+.listBox .main{
+    /* margin:5px; */
+    max-width: 800px;
+    max-height: 200px;
+    margin:auto
+}
+.listBox input, .listBox select{
+    border:none;
+    background-color: white;
+    padding: 3px;
+    margin:5px 5px
+}
+.listBox td button{
+    background:none;
+    margin:3px;
+}
+.reset .btn{
+    float: right;
+    margin:20px 5px;
+}
+.noData{
+    margin: 20px !important;
+    font-weight:600;
+}
+.main{
+    overflow: scroll;
+
+}
+.main::-webkit-scrollbar { 
+    display: none;  /* Safari and Chrome */
+}
+
+/* .task-calender{
+    
+} */
